@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tabal" prefHeight="200.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="pedido" layoutX="23.0" layoutY="247.0" promptText="pedido" />
+      <TextField fx:id="precio" layoutX="226.0" layoutY="247.0" promptText="precio" />
+      <TextField fx:id="direccion" layoutX="426.0" layoutY="247.0" promptText="direccion" />
+      <Button fx:id="buttomEnter" layoutX="30.0" layoutY="316.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
